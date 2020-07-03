@@ -5,7 +5,7 @@
 Clone this repository and run Composer as follows:
 
 ```bash
-git clone https://github.com/csantos50/crud_api.git
+git clone https://github.com/csantos50/CRUD-API.git
 
 cd crud_api
 
@@ -22,13 +22,14 @@ composer serve
 
 ## Endpoints
 
+```bash
 [get] '/v1/category/get-all/{name}'
-[get] '/v1/category/get-all',
-[get] '/v1/category/get/{id}',
-[post] '/v1/category/create',
+[get] '/v1/category/get-all'
+[get] '/v1/category/get/{id}'
+[post] '/v1/category/create'
 [post] '/v1/category/delete/{id}'
-[post] '/v1/category/update/{id}';
-
+[post] '/v1/category/update/{id}'
+```
 Category example
 ```bash
     {
